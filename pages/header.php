@@ -27,14 +27,6 @@ $query_pub = mysqli_query($connect, $sql_pub);
                 <a class="nav-link" href="index.php?controller=sach&action=tatca">Tất cả sách</a>
             </li>
             
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tài khoản</a>
-                <div class="dropdown-menu" aria-labelledby="dropdownId">
-                    <a class="dropdown-item" href="loginkh.php">Đăng nhập</a>
-                    <a class="dropdown-item" href="register.php">Đăng ký</a>
-                </div>
-            </li>
-
         </ul>
         
     </div>
