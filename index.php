@@ -33,23 +33,8 @@
     include './pages/header.php';
     ?>
     <div>
-        <?php 
-        if ($controller=='sach')
-        {
-            include './controllers/sach.php';
-        }
-        if ($controller=='giohang')
-        {
-            include './controllers/giohang.php';
-        }
-
-        if ($controller=='khachhang')
-        {
-            include './controllers/khachhang.php';
-        }
-
-        ?>
-        
+       
+      
     </div>
     
     <?php 
