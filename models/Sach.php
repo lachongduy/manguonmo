@@ -23,9 +23,15 @@ class Sach extends Db
 
     function search($kw)
     {
+
         $s = 'select * from book where book_id like ?';
         $a = ["%kw%"];
         return $this->selectQuery($s, $s);
+
+        $s = 'select * from book where book_name like ?';
+        $a = ["%$kw%"];
+        return $this->selectQuery($s, $a);
+
     }
 
     function panigation()
