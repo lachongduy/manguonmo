@@ -24,10 +24,8 @@
             Username <input type="text" name="username" class="form-control" required="">
             Password <input type="password" name="password" class="form-control" required="">
             <input type="submit" class="btn btn-block btn-info my-3" name="dangnhap" value="Đăng nhập">
-            
         </form>
        <a href="register.php"> <input type="submit" class="btn btn-block btn-primary my-3" value="Đăng ký"></a>
-    </div>
-    
+    </div> 
 </body>
 </html>

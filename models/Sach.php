@@ -18,7 +18,6 @@ class Sach extends Db
     function filterWithCat($cat){
 
         return $this->selectQuery("select * from book inner join category on book.cat_id = category.cat_id where '$cat' = category.cat_id");
-
     }
 
     function search($kw)
@@ -36,7 +35,6 @@ class Sach extends Db
 
     function panigation()
     {
-
         $pageSize = 4;
         $startRow = 0;
         $pageNum = 1;

@@ -55,15 +55,13 @@ include './pages/header.php';
 ?>
 
 <div class="about">
-        <div class="thongtin">Họ và Tên: LẠC HỒNG DUY</div>
-        <div class="thongtin">Lớp: D18-TH11</div>
-        <div class="thongtin">MSSV: DH51804418</div>
-        
-    </div>
-    <div>
-        <img class="imgduy" src="../tuan6-1123/assets/img/book/hinhduy.jpg" alt="">
-    </div>
-
+    <div class="thongtin">Họ và Tên: LẠC HỒNG DUY</div>
+    <div class="thongtin">Lớp: D18-TH11</div>
+    <div class="thongtin">MSSV: DH51804418</div>  
+</div>
+<div>
+    <img class="imgduy" src="../tuan6-1123/assets/img/book/hinhduy.jpg" alt="">
+</div>
 </div>
 </body>
 </html>
