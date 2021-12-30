@@ -18,7 +18,6 @@ $query_pub = mysqli_query($connect, $sql_pub);
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            
             <li class="nav-item active">
                 <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -48,7 +47,6 @@ $query_pub = mysqli_query($connect, $sql_pub);
                     <a class="dropdown-item" href="register.php">Đăng ký</a>
                 </div>
             </li>
-
         </ul>
         <form class="form-inline my-2 my-lg-0" action='index.php' method='get'>
             <input type="hidden" name='controller' value='sach'>

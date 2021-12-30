@@ -2,7 +2,6 @@
 <?php
 //current URL of the Page. cart_update.php redirects back to this URL
 $current_url = base64_encode("http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
-   
     $results = $mysqli->query("SELECT * FROM book ORDER BY id ASC");
     if ($results) {
         //output results from database
@@ -22,7 +21,6 @@ $current_url = base64_encode("http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_U
             echo '</form>';
             echo '</div>';
         }
-   
-}
+    }
 ?>
 </div>
