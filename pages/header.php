@@ -81,7 +81,7 @@ $query_pub = mysqli_query($connect, $sql_pub);
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
                         <a class="dropdown-item" href="index.php?controller=sach&action=filterCat&cat=<?php echo $row_cat['cat_id'] ?>"></a>
-                    <?php } ?>
+                    <?php ?>
                 </div>
             </li>
         </ul>
