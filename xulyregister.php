@@ -11,7 +11,6 @@ if(isset($_POST['dangky']))
     $email = trim($_POST['email']);
 
 
-
     if (empty($username)) {
     array_push($errors, "Username is required"); 
     }
@@ -38,18 +37,17 @@ if(isset($_POST['dangky']))
     die ();
     }
     else {
-    $sql = "INSERT INTO taikhoankh (username, password, email) VALUES ('$username','$password','$email')";
-    echo '<script language="javascript">alert("Đăng ký thành công!"); window.location="index.php";</script>';
+        $sql = "INSERT INTO taikhoankh (username, password, email) VALUES ('$username','$password','$email')";
+        echo '<script language="javascript">alert("Đăng ký thành công!"); window.location="index.php";</script>';
 
-    if (mysqli_query($conn, $sql)){
-    echo "Tên đăng nhập: ".$_POST['username']."<br/>";
-    echo "Mật khẩu: " .$_POST['password']."<br/>";
-    echo "Email đăng nhập: ".$_POST['email']."<br/>";
-
-    }
-    else {
-    echo '<script language="javascript">alert("Có lỗi trong quá trình xử lý"); window.location="register.php";</script>';
-    }
+        if (mysqli_query($conn, $sql)){
+        echo "Tên đăng nhập: ".$_POST['username']."<br/>";
+        echo "Mật khẩu: " .$_POST['password']."<br/>";
+        echo "Email đăng nhập: ".$_POST['email']."<br/>";
+        }
+        else {
+        echo '<script language="javascript">alert("Có lỗi trong quá trình xử lý"); window.location="register.php";</script>';
+        }
     }
 }
 ?>

@@ -24,6 +24,9 @@ $query_pub = mysqli_query($connect, $sql_pub);
             <li class="nav-item active">
              <a class="nav-link" href="about.php" >About</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.php?controller=sach&action=tatca">Tất cả sách</a>
+            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Danh sách loại</a>
                 <div class="dropdown-menu" aria-labelledby="dropdownId">
