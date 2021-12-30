@@ -19,7 +19,7 @@
 </head>
 <body>
     <div class="container" >
-        <h3 class=" text-center my-5">LOGIN ADMIN</h3>
+        <h3 class=" text-center my-5">duy</h3>
         <form action="xuly.php"  method="POST">
             Username <input type="text" name="username" class="form-control" required="">
             Password <input type="password" name="password" class="form-control" required="">
