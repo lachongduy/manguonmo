@@ -28,6 +28,7 @@ $query_pub = mysqli_query($connect, $sql_pub);
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
             
             <li class="nav-item active">
                 <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
@@ -63,6 +64,7 @@ $query_pub = mysqli_query($connect, $sql_pub);
                     <?php } ?>
                 </div>
             </li>
+
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tài khoản</a>
                 <div class="dropdown-menu" aria-labelledby="dropdownId">
@@ -91,8 +93,6 @@ $query_pub = mysqli_query($connect, $sql_pub);
             <li class="nav-item">
                 <a class="nav-link" href="index.php?controller=sach&action=tatca">Tất cả sách</a>
             </li>
-            
-        </ul>
-        
-    </div>
+                
+  </div>
 </nav>
