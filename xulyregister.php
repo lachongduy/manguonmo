@@ -38,7 +38,7 @@ if(isset($_POST['dangky']))
     die ();
     }
     else {
-    $sql = "INSERT INTO taikhoankh (username, password, email) VALUES ('$username','$password','$email')";
+    $sql = "INSERT INTO taikhoankh (username, password, email) VALUES ('$username','$passwords','$emails')";
     echo '<script language="javascript">alert("Đăng ký thành công!"); window.location="index.php";</script>';
 
     if (mysqli_query($conn, $sql)){
