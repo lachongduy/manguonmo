@@ -25,10 +25,6 @@ class Sach extends Db
 
         $s = 'select * from book where book_name like ?';
         $a = ["%$kw%"];
-        return $this->selectQuery($s, $s);
-
-        $s = 'select * from book where book_name like ?';
-        $a = ["%$kw%"];
         return $this->selectQuery($s, $a);
 
     }

@@ -10,7 +10,7 @@
     $result = $temp->query($sql)->fetch_assoc();
     if($result['password'] == $password)
     {
-         header('location: admin.php');
+         header('location: http://localhost/lachongduy_DH51804418/tuan6-1123/admin/admin.php');
     } 
     else
     {    header('location: login.php');
